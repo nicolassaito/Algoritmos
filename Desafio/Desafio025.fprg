@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Nicolas.saito"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-06 09:01:54 "/>
+        <attribute name="created" value="Tmljb2xhcy5zYWl0bztOVDQwOzIwMjQtMDMtMDY7IjA4OjUwOjI3ICI7Mjc1OQ=="/>
+        <attribute name="edited" value="Tmljb2xhcy5zYWl0bztOVDQwOzIwMjQtMDMtMDY7IjA5OjAxOjU0ICI7MTsyODY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="l1, l2, l3" type="Integer" array="False" size=""/>
+            <input variable="l1"/>
+            <input variable="l2"/>
+            <input variable="l3"/>
+            <if expression="(l1+l2)&gt;l3">
+                <then>
+                    <output expression="&quot;&#201; um tri&#226;ngulo&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o &#233; um tri&#226;ngulo&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
